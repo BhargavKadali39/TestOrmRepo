@@ -6,7 +6,7 @@
 <meta charset="UTF-8">
 <title>Employees List through Spring JDBC Template</title>
 </head>
- <BODY>
+ <BODY BGCOLOR="yellow">
        <H1>Employees List through Spring JDBC Template </H1>
 
       <TABLE BORDER="1">
@@ -18,6 +18,7 @@
       <TH>Dept No</TH>
       </TR>
       <% 
+      	
         List<Employee> elist=(List<Employee>)request.getAttribute("elist");
 		for(Employee e:elist){
 	  %>
